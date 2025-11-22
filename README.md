@@ -5,8 +5,8 @@ It allows users to create short URLs, track clicks, view statistics, and manage 
 
 This project is built based on the TinyLink Take-Home Assignment.
 # Deployment links:
-Backend: https://tiny-company-assignment.onrender.com
-frontend: https://tiny-company-assignment.vercel.app/
+- Backend: https://tiny-company-assignment.onrender.com
+- frontend: https://tiny-company-assignment.vercel.app/
 
 ---
 
