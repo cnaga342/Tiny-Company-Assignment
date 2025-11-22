@@ -1,0 +1,21 @@
+:root{ --container: 900px; --muted:#666; }
+body{ font-family: Inter, system-ui, Arial; margin:0; padding:0; color:#111; }
+.container{ max-width:var(--container); margin:24px auto; padding:0 16px; }
+.header{ background:#0d47a1; color:white; padding:12px 0; }
+.header h1{ margin:0; font-size:20px; }
+.header a{ color:white; text-decoration:none; }
+.card{ border:1px solid #eee; padding:12px; border-radius:6px; background:#fafafa; }
+.row{ margin-bottom:8px; display:flex; flex-direction:column; }
+.row input{ padding:8px; border:1px solid #ddd; border-radius:4px; }
+.actions{ margin-top:8px; }
+button{ padding:8px 12px; border:none; background:#0d47a1; color:white; border-radius:4px; cursor:pointer; }
+button[disabled]{ opacity:0.6; cursor:not-allowed }
+.links{ width:100%; border-collapse:collapse; margin-top:12px; }
+.links th, .links td{ text-align:left; padding:8px; border-bottom:1px solid #eee; }
+.truncate{ max-width:420px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.error{ color:#b00020; margin-top:8px }
+.success{ color:green; margin-top:8px }
+.footer{ padding:12px 0; text-align:center; color:var(--muted); border-top:1px solid #eee; margin-top:48px }
+@media(max-width:600px){
+  .links th:nth-child(4), .links td:nth-child(4) { display:none; }
+}
