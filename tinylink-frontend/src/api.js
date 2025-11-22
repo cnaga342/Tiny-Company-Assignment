@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_BASE_URL || 'http://localhost:3000';
+const BASE = import.meta.env.VITE_BASE_URL || 'https://tiny-company-assignment.onrender.com';
 
 export async function listLinks() {
   const res = await fetch(`${BASE}/api/links`);
